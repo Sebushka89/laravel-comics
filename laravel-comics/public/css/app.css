@@ -154,6 +154,12 @@ footer .container .logo-container img {
   margin-right: 20px;
 }
 
+.bottom .under-footer img:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .bottom .under-footer span {
   color: #0282F9;
   vertical-align: super;
@@ -172,6 +178,8 @@ button {
 
 button:hover {
   transform: scale(1.5);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 h2 {
