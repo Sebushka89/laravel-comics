@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;
+
+700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+.blue-row {
+  background-color: #0282f9;
+}
+
+.blue-row .container {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+.blue-row .container div {
+  padding: 0 12px;
+}
+
+.header-full {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-full .logo-container {
+  text-align: left;
+  height: 100px;
+}
+
+.header-full .logo-container img {
+  height: 90%;
+  padding-top: 10px;
+}
+
+.header-full nav {
+  margin: 0 auto;
+}
+
+.header-full nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.header-full nav ul li {
+  height: 100px;
+  line-height: 100px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.header-full nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 40px;
+}
+
+.header-full nav ul li a:hover {
+  color: dodgerblue;
+  border-bottom: 3px solid dodgerblue;
+}
+
+.header-full input {
+  border: none;
+}
+
+.header-full input:hover {
+  cursor: pointer;
+}
+
+.header-full input:focus,
+.header-full textarea:focus,
+.header-full select:focus {
+  outline: none;
+}
+
+.jumbo-pic {
+  background-image: url(/img/jumbotron.jpg);
+  height: 400px;
+}
+
+footer {
+  background-image: url(/img/footer-bg.jpg);
+  height: 485px;
+  background-size: cover;
+}
+
+footer .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer .container .lista {
+  display: inline-block;
+  padding-right: 20px;
+  margin-top: 30px;
+  vertical-align: top;
+}
+
+footer .container .lista ul {
+  list-style: none;
+}
+
+footer .container .lista ul li {
+  margin: 10px 0;
+}
+
+footer .container .lista ul li a {
+  color: grey;
+  text-decoration: none;
+}
+
+footer .container .lista ul li a:hover {
+  color: white;
+}
+
+footer .container .logo-container {
+  display: inline-block;
+  height: 485px;
+  padding-left: 130px;
+  overflow: hidden;
+  width: 740px;
+}
+
+footer .container .logo-container img {
+  height: 600px;
+  margin-top: -70px;
+}
+
+.bottom {
+  background-color: #1C1C1C;
+}
+
+.bottom .under-footer {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom .under-footer img {
+  margin-right: 20px;
+}
+
+.bottom .under-footer span {
+  color: #0282F9;
+  vertical-align: super;
+  margin-right: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+button {
+  border: 3px solid #0282F9;
+  padding: 10px;
+  background-color: #1C1C1C;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.5);
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: white;
+}
+
