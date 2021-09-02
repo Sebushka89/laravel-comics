@@ -155,7 +155,7 @@ footer .container .logo-container img {
 }
 
 .bottom .under-footer img:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   transition: 0.5s;
   cursor: pointer;
 }
