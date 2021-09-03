@@ -86,7 +86,7 @@
 }
 footer{
     background-image: url(/img/footer-bg.jpg);
-    height: 485px;
+    height: 480px;
     background-size: cover;
     .container{
         width: 1200px;
@@ -110,9 +110,20 @@ footer{
                 }    
             }
         }
+        .cookie{
+            position: relative;
+            bottom: 50px;
+            span{
+                color: grey; 
+                a{
+                    color: #0282F9;
+                    text-decoration: none;
+                }
+            }
+        }
         .logo-container {
             display: inline-block;
-            height: 485px;
+            height: 480px;
             padding-left: 130px;
             overflow: hidden;
             width: 740px;

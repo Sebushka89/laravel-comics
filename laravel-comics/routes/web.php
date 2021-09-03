@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::get('/product', function () {
     return view('product');
-})->name('Product');
+})->name('product');

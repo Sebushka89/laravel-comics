@@ -46,22 +46,25 @@
         <div class="logo-container">                    
             <img src="/img/dc-logo-bg.png">        
         </div>
+        <div class="cookie">
+            <span>All Site Content TM and  c 2020 DC Entertainment, unless otherwise <a class="blue-text" href="">noted here.</a> All rights reserved.<br><a class="blue-text" href="">Cokies Settings</a></span>
+        </div>
     </div>        
 </footer>
 
 <div class="bottom">
-            <div class="container">
-                <div class="under-footer">
-                    <button>Sign-up now!</button>
-                    <div class="social">
-                        <span><strong>Follow Us</strong></span>
-                        <img src="/img/footer-facebook.png" alt="">
-                        <img src="/img/footer-periscope.png" alt="">
-                        <img src="/img/footer-pinterest.png" alt="">
-                        <img src="/img/footer-twitter.png" alt="">
-                        <img src="/img/footer-youtube.png" alt="">
-                    </div>
-                </div> 
+    <div class="container">
+        <div class="under-footer">
+            <button>Sign-up now!</button>
+            <div class="social">
+                <span><strong>Follow Us</strong></span>
+                <img src="/img/footer-facebook.png" alt="">
+                <img src="/img/footer-periscope.png" alt="">
+                <img src="/img/footer-pinterest.png" alt="">
+                <img src="/img/footer-twitter.png" alt="">
+                <img src="/img/footer-youtube.png" alt="">
             </div>
-        </div>
+        </div> 
+    </div>
+</div>
 
