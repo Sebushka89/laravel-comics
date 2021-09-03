@@ -14,12 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-     $comic = config('comic');
+
+    $comic = config('comic');
+
     return view('home', [
         'comic' => $comic
     ]);
 })->name('homePage');
 
-Route::get('/product', function () {
-    return view('product');
+Route::get('/product/{id}', function ($id) {
+
+    $arrayIndex = $id - 1;
+
+    $comic = config('comic');
+
+    return view('product', [
+        "comic"=> $comic[$arrayIndex]
+    ]);
 })->name('product');

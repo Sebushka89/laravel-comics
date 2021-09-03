@@ -5,7 +5,7 @@
 @section('content')
     <div class="bg-fluid">
         <div class="container">
-            <div class="button-container">
+            <div class="button-container-top">
                 <button class="btn">CURRENT SERIES</button>
             </div>
             <div class="row">
@@ -21,7 +21,7 @@
                 </div>            
                 @endforeach
             </div>
-            <div class="button-container-bottom">
+            <div class="btn-container">
                 <button>LOAD MORE</button>
             </div>
         </div>
