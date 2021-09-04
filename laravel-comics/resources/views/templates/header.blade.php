@@ -15,7 +15,7 @@
     <nav>
         <ul>
             <li><a href="http://">CHARACTERS</a></li>
-            <li><a href="http://">COMICS</a></li>
+            <li class="{{ Request::route()->getName() === 'homePage' ? 'active' : '' }}" ><a class="{{ Request::route()->getName() === 'homePage' ? 'active' : '' }}" href="{{ route('homePage') }}">COMICS</a></li>
             <li><a href="http://">MOVIES</a></li>
             <li><a href="http://">TV</a></li>
             <li><a href="http://">GAMES</a></li>

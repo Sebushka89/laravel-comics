@@ -71,6 +71,29 @@
             </div>
         </div>
     </div>
+
+</div>
+<div class="options-stripe-grey">
+    <nav class="container">
+        <ul>
+            <li>
+                <div class="text">DIGITAL COMICS</div>
+                <div class="img-container"><img src="/img/buy-comics-digital-comics.png" alt=""></div>
+            </li>
+            <li>
+                <div class="text">SHOP DC</div>
+                <div class="img-container"><img src="/img/buy-comics-merchandise.png" alt=""></div>
+            </li>
+            <li>
+                <div class="text">COSMIC SHOP LOCATOR</div>
+                <div class="img-container"><img src="/img/buy-comics-shop-locator.png" alt=""></div>
+            </li>
+            <li>
+                <div class="text">SUBSCRIPTION</div>
+                <div class="img-container"><img src="/img/buy-comics-subscriptions.png" alt=""></div>
+            </li>
+        </ul>
+    </nav>
         
 </section>
 
